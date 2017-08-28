@@ -15,9 +15,9 @@
    const sendResponse = require('send-response')
 
    module.exports.addResource = (req, res, next) => {
-   const student = new Resource({ req.body })
-   student.save()
-   .then(student => sendResponse(res, 201, {id: student._id}))
+   const resource = new Resource({ req.body })
+   resource.save()
+   .then(resource => sendResponse(res, 201, {id: resource._id}))
    .catch(err => handleError(err))
    }
    ```
