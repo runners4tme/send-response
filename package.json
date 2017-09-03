@@ -1,0 +1,22 @@
+{
+  "name": "send-json-response",
+  "version": "0.0.1",
+  "description": "a function to send json responses with express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runners4tme/send-response.git"
+  },
+  "keywords": [
+    "responses"
+  ],
+  "author": "latani masithi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runners4tme/send-response/issues"
+  },
+  "homepage": "https://github.com/runners4tme/send-response#readme"
+}
